@@ -31,7 +31,7 @@ export default function ListOfProducts() {
       }
     }, [inView, fetchNextPage, hasNextPage]);
 
-    console.log(products,'dataTest');
+    //console.log(products,'dataTest');
 
     return status === 'pending' ? (
       <div><Loading/></div>
@@ -50,8 +50,8 @@ export default function ListOfProducts() {
                 <Image
                 width={280}
                 height={380}
-                alt={product.imageAlt}
-                src={product.imageSrc}
+                alt={product.imageAlt ?? 'Product Image'}
+                src={product.imageSrc ?? 'https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg'}
                 className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
                 />
                 <div className="mt-4 flex justify-between">
