@@ -42,7 +42,6 @@ const filters = [
 
 export default function Products() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
-  
     return (
       <div>
         <div>
