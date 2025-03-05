@@ -4,10 +4,9 @@ import {
     QueryClient,
   } from '@tanstack/react-query';
 
-import Breadcrumb from "../../../components/Breadcrumb";
+import Breadcrumb from "@components/Breadcrumb";
 import { getProductbySku } from "@/services/products";
-import ProductDetails from '../../../components/ProductDetails';
-
+import ProductDetails from '@components/ProductDetails';
 
 export default async function ProductDetailsPage({
     params,
