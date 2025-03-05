@@ -6,7 +6,7 @@ import {
 
 import Breadcrumb from "@components/Breadcrumb";
 import { getProductbySku } from "@/services/products";
-import ProductDetails from '@components/ProductDetails';
+import ProductFeatures from '@/components/ProductFeatures';
 
 export default async function ProductDetailsPage({
     params,
@@ -26,7 +26,7 @@ export default async function ProductDetailsPage({
         <HydrationBoundary state={dehydrate(queryClient)}>
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <Breadcrumb></Breadcrumb>
-                <ProductDetails productSku={productSku}></ProductDetails>
+                <ProductFeatures productSku={productSku}></ProductFeatures>
             </main>
         </HydrationBoundary>
     );
