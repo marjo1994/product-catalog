@@ -6,7 +6,7 @@ import {
 
 import Breadcrumb from "@/components/Breadcrumb";
 import { getProductbySku } from "@/services/products";
-import ProductDetails from '@/components/productDetails';
+import ProductDetails from '@/components/ProductDetails';
 
 
 export default async function ProductDetailsPage({

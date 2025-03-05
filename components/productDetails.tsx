@@ -3,19 +3,8 @@
 import { getProductbySku } from "@/services/products";
 import { useQuery } from "@tanstack/react-query";
 import Image from "next/image";
-
-interface Product {
-    sku: string;
-    name: string; 
-    imageAlt: string;
-    imageSrc: string;
-    href: string;
-    brand: string;
-    price: number;
-    category: string;
-    description: string;
-}
-
+import Loading from "./Loading";
+import { Product } from '../types/types';
 interface ProductDetailsProps {
     productSku: string; // Accept product prop
 }
@@ -25,10 +14,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ productSku }) => {
     const { data, error, isLoading } = useQuery<Product, Error>({
         queryKey: ['product', productSku],
         queryFn: () => getProductbySku(productSku),
-        enabled: !!productSku,
+        enabled: !!productSku
     });
     
-    if (isLoading) return <div>Loading...</div>;
+    if (isLoading) return <div><Loading/></div>;
     if (error) return <div>Error: {error.message}</div>;
 
     //console.log(data);

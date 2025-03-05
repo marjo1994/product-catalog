@@ -11,9 +11,10 @@ import { getProducts } from '@/services/products';
 export default async function Home() {
   const queryClient = new QueryClient()
 
-  await queryClient.prefetchQuery({
+  await queryClient.prefetchInfiniteQuery({
     queryKey: ['products'],
     queryFn: getProducts,
+    initialPageParam: 1,
   })
 
   return (

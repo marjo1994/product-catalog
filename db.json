@@ -87,6 +87,94 @@
             "category": "Travel",
             "brand": "Levis",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 951,
+            "name": "Earthen Bottle",
+            "href": "/products/951",
+            "price": "$48",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg",
+            "imageAlt": "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+            "category": "New Arrivals",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 952,
+            "name": "Nomad Tumbler",
+            "href": "/products/952",
+            "price": "$35",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg",
+            "imageAlt": "Olive drab green insulated bottle with flared screw lid and flat top.",
+            "category": "Sale",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 953,
+            "name": "Focus Paper Refill",
+            "href": "/products/953",
+            "price": "$89",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg",
+            "imageAlt": "Person using a pen to cross a task off a productivity paper card.",
+            "category": "Travel",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 954,
+            "name": "Machined Mechanical Pencil",
+            "href": "/products/954",
+            "price": "$35",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg",
+            "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top.",
+            "category": "Organization",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 955,
+            "name": "Earthen Bottle",
+            "href": "/products/955",
+            "price": "$48",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg",
+            "imageAlt": "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+            "category": "Accessories",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 956,
+            "name": "Nomad Tumbler",
+            "href": "/products/956",
+            "price": "$35",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg",
+            "imageAlt": "Olive drab green insulated bottle with flared screw lid and flat top.",
+            "category": "Accessories",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 957,
+            "name": "Focus Paper Refill",
+            "href": "/products/957",
+            "price": "$89",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg",
+            "imageAlt": "Person using a pen to cross a task off a productivity paper card.",
+            "category": "Organization",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "sku": 958,
+            "name": "Machined Mechanical Pencil",
+            "href": "/products/958",
+            "price": "$35",
+            "imageSrc": "https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg",
+            "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top.",
+            "category": "Travel",
+            "brand": "Levis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         }
     ]
 }
